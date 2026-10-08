@@ -1,0 +1,189 @@
+{
+    "plausible": {
+        "overall": {
+            "temp1_accuracy": 70.0,
+            "besttemp_accuracy": 76.0,
+            "best_temp": 2.1500000953674316
+        },
+        "sentential_negation_npi_scope": {
+            "temp1_accuracy": 0.0,
+            "besttemp_accuracy": 0.0,
+            "best_temp": 9.999999974752427e-07
+        },
+        "sentential_negation_npi_licensor_present": {
+            "temp1_accuracy": 0.0,
+            "besttemp_accuracy": 0.0,
+            "best_temp": 9.999999974752427e-07
+        },
+        "principle_A_c_command": {
+            "temp1_accuracy": 100.0,
+            "besttemp_accuracy": 100.0,
+            "best_temp": 9.999999974752427e-07
+        },
+        "anaphor_number_agreement": {
+            "temp1_accuracy": 66.66667175292969,
+            "besttemp_accuracy": 100.0,
+            "best_temp": 1.850000023841858
+        },
+        "wh_questions_object_gap_long_distance": {
+            "temp1_accuracy": 33.333335876464844,
+            "besttemp_accuracy": 100.0,
+            "best_temp": 9.999999974752427e-07
+        },
+        "principle_A_domain_1": {
+            "temp1_accuracy": 100.0,
+            "besttemp_accuracy": 100.0,
+            "best_temp": 9.999999974752427e-07
+        },
+        "recursion_intensifier_adv_medium": {
+            "temp1_accuracy": 0.0,
+            "besttemp_accuracy": 0.0,
+            "best_temp": 9.999999974752427e-07
+        },
+        "adjunct_island": {
+            "temp1_accuracy": 100.0,
+            "besttemp_accuracy": 100.0,
+            "best_temp": 9.999999974752427e-07
+        },
+        "recursion_pp_is_medium": {
+            "temp1_accuracy": 100.0,
+            "besttemp_accuracy": 100.0,
+            "best_temp": 9.999999974752427e-07
+        },
+        "determiner_noun_agreement_adj_1": {
+            "temp1_accuracy": 100.0,
+            "besttemp_accuracy": 100.0,
+            "best_temp": 9.999999974752427e-07
+        },
+        "subj_aux_vary_verb_pp": {
+            "temp1_accuracy": 100.0,
+            "besttemp_accuracy": 100.0,
+            "best_temp": 9.999999974752427e-07
+        },
+        "swapped_ditransitive_2": {
+            "temp1_accuracy": 100.0,
+            "besttemp_accuracy": 100.0,
+            "best_temp": 9.999999974752427e-07
+        },
+        "wh_questions_subject_gap_long_distance": {
+            "temp1_accuracy": 50.0,
+            "besttemp_accuracy": 50.0,
+            "best_temp": 9.999999974752427e-07
+        },
+        "recursion_poss_transitive_medium": {
+            "temp1_accuracy": 100.0,
+            "besttemp_accuracy": 100.0,
+            "best_temp": 9.999999974752427e-07
+        },
+        "green_ideas": {
+            "temp1_accuracy": 100.0,
+            "besttemp_accuracy": 100.0,
+            "best_temp": 9.999999974752427e-07
+        },
+        "wh_questions_object_gap": {
+            "temp1_accuracy": 100.0,
+            "besttemp_accuracy": 100.0,
+            "best_temp": 9.999999974752427e-07
+        },
+        "recursion_intensifier_adj_short": {
+            "temp1_accuracy": 100.0,
+            "besttemp_accuracy": 100.0,
+            "best_temp": 9.999999974752427e-07
+        },
+        "matrix_question_npi_licensor_present": {
+            "temp1_accuracy": 100.0,
+            "besttemp_accuracy": 100.0,
+            "best_temp": 9.999999974752427e-07
+        },
+        "subj_aux_agreement_question_vary_aux": {
+            "temp1_accuracy": 100.0,
+            "besttemp_accuracy": 100.0,
+            "best_temp": 9.999999974752427e-07
+        },
+        "wh_island": {
+            "temp1_accuracy": 100.0,
+            "besttemp_accuracy": 100.0,
+            "best_temp": 9.999999974752427e-07
+        },
+        "recursion_pp_verb_long": {
+            "temp1_accuracy": 100.0,
+            "besttemp_accuracy": 100.0,
+            "best_temp": 9.999999974752427e-07
+        },
+        "subj_aux_vary_verb": {
+            "temp1_accuracy": 50.0,
+            "besttemp_accuracy": 100.0,
+            "best_temp": 9.999999974752427e-07
+        },
+        "subj_aux_vary_verb_rc": {
+            "temp1_accuracy": 100.0,
+            "besttemp_accuracy": 100.0,
+            "best_temp": 9.999999974752427e-07
+        },
+        "recursion_poss_transitive_long": {
+            "temp1_accuracy": 0.0,
+            "besttemp_accuracy": 100.0,
+            "best_temp": 1.4000000953674316
+        },
+        "recursion_intensifier_adj_medium": {
+            "temp1_accuracy": 100.0,
+            "besttemp_accuracy": 100.0,
+            "best_temp": 0.20000000298023224
+        },
+        "only_npi_scope": {
+            "temp1_accuracy": 100.0,
+            "besttemp_accuracy": 100.0,
+            "best_temp": 9.999999974752427e-07
+        },
+        "center_embedding_single_2": {
+            "temp1_accuracy": 100.0,
+            "besttemp_accuracy": 100.0,
+            "best_temp": 9.999999974752427e-07
+        },
+        "determiner_noun_agreement_1": {
+            "temp1_accuracy": 100.0,
+            "besttemp_accuracy": 100.0,
+            "best_temp": 9.999999974752427e-07
+        },
+        "pp_order": {
+            "temp1_accuracy": 100.0,
+            "besttemp_accuracy": 100.0,
+            "best_temp": 9.999999974752427e-07
+        },
+        "recursion_intensifier_adv_short": {
+            "temp1_accuracy": 100.0,
+            "besttemp_accuracy": 100.0,
+            "best_temp": 0.45000001788139343
+        },
+        "recursion_intensifier_adj_long": {
+            "temp1_accuracy": 0.0,
+            "besttemp_accuracy": 100.0,
+            "best_temp": 1.149999976158142
+        },
+        "center_embedding_single_1": {
+            "temp1_accuracy": 0.0,
+            "besttemp_accuracy": 0.0,
+            "best_temp": 9.999999974752427e-07
+        },
+        "svo_vos": {
+            "temp1_accuracy": 100.0,
+            "besttemp_accuracy": 100.0,
+            "best_temp": 9.999999974752427e-07
+        },
+        "adv_order": {
+            "temp1_accuracy": 100.0,
+            "besttemp_accuracy": 100.0,
+            "best_temp": 0.9000000357627869
+        },
+        "wh_questions_subject_gap": {
+            "temp1_accuracy": 0.0,
+            "besttemp_accuracy": 0.0,
+            "best_temp": 9.999999974752427e-07
+        }
+    },
+    "overall": {
+        "temp1_accuracy": 70.0,
+        "besttemp_accuracy": 76.0,
+        "best_temp": 2.1500000953674316
+    }
+}

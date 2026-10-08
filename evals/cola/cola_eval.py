@@ -72,8 +72,7 @@ def evaluate_cola(backend: LanguageModel, data_dir, temperatures: Optional[Seque
     sentences = load_sentences(data_dir)
     if sentences.empty:
         raise ValueError(f"no .tsv sentences under {data_dir}")
-
-    rows: List[Dict] = []
+    
     iterator = sentences.iterrows()
 
     if progress:
