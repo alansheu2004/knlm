@@ -110,6 +110,21 @@ class LanguageModel(abc.ABC):
         per_token = self.token_logprobs(seqs, temperatures, prefix_lens, positions)
         return torch.stack([t.sum(dim=-1) for t in per_token], dim=0)
 
+    def sequence_mean_logprobs(self, seqs: Sequence[Sequence[int]], temperatures: Sequence[float] = (1.0,),
+                              prefix_lens: Optional[Sequence[int]] = None,
+                              positions: Optional[Sequence[Sequence[int]]] = None) -> torch.Tensor:
+            """``[n_seqs, n_temperatures]`` sums of ``token_logprobs`` (over ``positions`` when given)."""
+            per_token = self.token_logprobs(seqs, temperatures, prefix_lens, positions)
+            return torch.stack([t.mean(dim=-1) for t in per_token], dim=0)
+
+    def sequence_pen_logprobs(self, seqs: Sequence[Sequence[int]], temperatures: Sequence[float] = (1.0,),
+                                  prefix_lens: Optional[Sequence[int]] = None,
+                                  positions: Optional[Sequence[Sequence[int]]] = None,
+                                  L: float = 5.0, alpha: float = 0.8) -> torch.Tensor:
+                """``[n_seqs, n_temperatures]`` sums of ``token_logprobs`` (over ``positions`` when given)."""
+                per_token = self.token_logprobs(seqs, temperatures, prefix_lens, positions)
+                return torch.stack([t.sum(dim=-1) for t in per_token], dim=0) / ((L + len(seqs)) / (L + 1)) ** alpha
+
     # --- representations ------------------------------------------------------
     @abc.abstractmethod
     def hidden_states(self, seqs: Sequence[Sequence[int]], layers: Layers = "final",

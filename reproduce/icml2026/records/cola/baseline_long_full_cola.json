@@ -1,0 +1,92 @@
+{
+    "temp1_roc_auc": 0.6221735264227642,
+    "besttemp": 9.999999974752427e-07,
+    "besttemp_roc_auc": 0.6360064605110336,
+    "by_source": {
+        "gj04": {
+            "temp1_roc_auc": 0.5827216261998871,
+            "besttemp": 1.7000000476837158,
+            "besttemp_roc_auc": 0.585544889892716
+        },
+        "cj99": {
+            "temp1_roc_auc": 0.6454921422663358,
+            "besttemp": 0.949999988079071,
+            "besttemp_roc_auc": 0.646650124069479
+        },
+        "bc01": {
+            "temp1_roc_auc": 0.6192755255255254,
+            "besttemp": 0.10000000149011612,
+            "besttemp_roc_auc": 0.6398273273273274
+        },
+        "r-67": {
+            "temp1_roc_auc": 0.4505928853754941,
+            "besttemp": 3.0,
+            "besttemp_roc_auc": 0.45849802371541504
+        },
+        "rhl07": {
+            "temp1_roc_auc": 0.8333333333333334,
+            "besttemp": 9.999999974752427e-07,
+            "besttemp_roc_auc": 0.875
+        },
+        "l-93": {
+            "temp1_roc_auc": 0.6132867132867132,
+            "besttemp": 9.999999974752427e-07,
+            "besttemp_roc_auc": 0.63006993006993
+        },
+        "ks08": {
+            "temp1_roc_auc": 0.7144686299615877,
+            "besttemp": 1.2000000476837158,
+            "besttemp_roc_auc": 0.7208706786171575
+        },
+        "kl93": {
+            "temp1_roc_auc": NaN,
+            "besttemp": 9.999999974752427e-07,
+            "besttemp_roc_auc": NaN
+        },
+        "b_82": {
+            "temp1_roc_auc": 0.6666666666666667,
+            "besttemp": 1.4000000953674316,
+            "besttemp_roc_auc": 0.8333333333333334
+        },
+        "b_73": {
+            "temp1_roc_auc": 1.0,
+            "besttemp": 9.999999974752427e-07,
+            "besttemp_roc_auc": 1.0
+        },
+        "c_13": {
+            "temp1_roc_auc": 0.7100737100737101,
+            "besttemp": 1.5,
+            "besttemp_roc_auc": 0.7321867321867322
+        },
+        "d_98": {
+            "temp1_roc_auc": 0.9375,
+            "besttemp": 1.0499999523162842,
+            "besttemp_roc_auc": 1.0
+        },
+        "g_81": {
+            "temp1_roc_auc": 0.25,
+            "besttemp": 9.999999974752427e-07,
+            "besttemp_roc_auc": 0.5
+        },
+        "m_02": {
+            "temp1_roc_auc": NaN,
+            "besttemp": 9.999999974752427e-07,
+            "besttemp_roc_auc": NaN
+        },
+        "sgww85": {
+            "temp1_roc_auc": 1.0,
+            "besttemp": 9.999999974752427e-07,
+            "besttemp_roc_auc": 1.0
+        },
+        "sks13": {
+            "temp1_roc_auc": 0.6428571428571428,
+            "besttemp": 2.549999952316284,
+            "besttemp_roc_auc": 0.6636904761904763
+        },
+        "ad03": {
+            "temp1_roc_auc": 0.7438271604938271,
+            "besttemp": 0.3499999940395355,
+            "besttemp_roc_auc": 0.75
+        }
+    }
+}

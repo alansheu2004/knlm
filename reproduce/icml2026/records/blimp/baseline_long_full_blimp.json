@@ -1,10 +1,10 @@
 {
- "best_temp_avg_uid_accuracy": 79.24029850746271,
+ "best_temp_avg_uid_accuracy": 79.25074626865671,
  "best_temp_field_morphology": 92.83888888888889,
  "best_temp_field_semantics": 72.73333333333333,
- "best_temp_field_syntax": 75.67307692307692,
- "best_temp_field_syntax_semantics": 72.56428571428572,
- "best_temperature": 2.6000001430511475,
+ "best_temp_field_syntax": 75.68076923076923,
+ "best_temp_field_syntax_semantics": 72.6,
+ "best_temperature": 2.5999999046325684,
  "per_uid": {
   "adjunct_island": 80.80000000000001,
   "anaphor_gender_agreement": 89.7,
@@ -46,11 +46,11 @@
   "npi_present_2": 60.4,
   "only_npi_licensor_present": 95.3,
   "only_npi_scope": 85.5,
-  "passive_1": 88.5,
+  "passive_1": 88.7,
   "passive_2": 88.1,
   "principle_A_c_command": 46.7,
   "principle_A_case_1": 99.9,
-  "principle_A_case_2": 96.2,
+  "principle_A_case_2": 96.7,
   "principle_A_domain_1": 84.39999999999999,
   "principle_A_domain_2": 59.8,
   "principle_A_domain_3": 55.900000000000006,
@@ -74,9 +74,9 @@
   "wh_vs_that_with_gap": 89.2,
   "wh_vs_that_with_gap_long_distance": 67.2
  },
- "temp_1_avg_uid_accuracy": 77.15373134328358,
+ "temp_1_avg_uid_accuracy": 77.16268656716417,
  "temp_1_field_morphology": 91.06666666666666,
  "temp_1_field_semantics": 73.61111111111111,
- "temp_1_field_syntax": 72.8,
- "temp_1_field_syntax_semantics": 69.62857142857143
+ "temp_1_field_syntax": 72.8076923076923,
+ "temp_1_field_syntax_semantics": 69.65714285714286
 }
